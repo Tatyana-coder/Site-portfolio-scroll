@@ -1,0 +1,57 @@
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+.bl {
+  color: #007BFF;
+}
+
+@media screen and (min-width: 576px) {
+  .cards {
+    display: flex;  
+    margin: 5vh 0;
+   
+  }
+    .allo{
+   
+    }
+    
+}
+
+@media screen and (max-width: 575px) {
+  .card {
+    margin: 5vh 0;
+  }
+    .allo {
+       margin: 5vh 0;    
+       margin-right: 2vh;
+        
+      
+    }
+}
+
+footer{
+  color: #6C757D;
+  background-color: #F5F5F5;
+  padding: 3vh 0;
+}
+
+.allo::-webkit-scrollbar-track{
+    border: 2px solid white;
+    background-color: #ccc;
+}
+.allo::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.allo::-webkit-scrollbar:horizontal {
+    height: 15px;
+  
+}
+
+.allo::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    border: 2px solid white; 
+    background-color: rgba(0, 0, 0, .5);
+}
+
